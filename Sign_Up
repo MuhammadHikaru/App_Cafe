@@ -28,7 +28,7 @@
             android:layout_width="314dp"
             android:layout_height="47dp"
             android:background="@drawable/style_edit_text"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:hint="id_user"
             android:layout_gravity="center"
             android:autofillHints=""
@@ -98,6 +98,21 @@
             android:paddingRight="49dp"
             android:textSize="18sp"/>
 
+        <Button
+            android:id="@+id/btn_masuk"
+            android:layout_width="191dp"
+            android:layout_height="47dp"
+            android:background="@drawable/button_style_1"
+            android:layout_marginTop="20dp"
+            android:text="Creat"
+            android:textColor="#fff"
+            android:autofillHints=""
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            android:paddingLeft="48dp"
+            android:paddingRight="49dp"
+            android:textSize="18sp"/>
 
 
     </LinearLayout>
