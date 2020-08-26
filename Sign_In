@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn"
+    tools:ignore="MissingDefaultResource">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="38dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Sign In"
+            android:textSize="35dp"
+            android:fontFamily="sans-serif-black"
+            android:lineHeight="41sp"
+            android:textColor="#000"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/edt_username"
+            android:layout_width="314dp"
+            android:layout_height="47dp"
+            android:background="@drawable/style_edit_text"
+            android:layout_marginTop="31dp"
+            android:hint="Username"
+            android:layout_gravity="center"
+            android:autofillHints=""
+            android:fontFamily="sans-serif"
+            android:inputType="text"
+            android:paddingLeft="48dp"
+            android:paddingRight="49dp"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="314dp"
+            android:layout_height="47dp"
+            android:background="@drawable/style_edit_text"
+            android:layout_marginTop="20dp"
+            android:hint="Username"
+            android:autofillHints=""
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:paddingLeft="48dp"
+            android:paddingRight="49dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tidak Memiliki Akun ?"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@drawable/style_edit_text"
+            android:text="Sign Up"
+            android:textSize="24dp"
+            android:fontFamily="roboto"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
